@@ -31,7 +31,7 @@ N = '\x1b[0m'    # WARNA MATI
 H = '\x1b[1;92m' # HIJAU
 # ---- MODULE -----
 #from data.loy import 
-from .loy import xxx
+from data.loy import Cek_Crack
 
 class Xnxx:
     def __init__(self):
@@ -70,7 +70,7 @@ class Xnxx:
         if pil in[""," "]:
             prints(Panel(f"[{merah}!{hps}] jangan kosong"));self.kontol(tokenz, cookie)
         elif pil in["1","01"]:
-            xxx.Cek_Crack().hasil()
+            Cek_Crack().hasil()
         elif pil in["2", "02"]:
             self.seting_ua()
         elif pil in["3", "03"]:

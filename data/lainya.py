@@ -30,7 +30,8 @@ O = '\x1b[1;96m' # BIRU MUDA
 N = '\x1b[0m'    # WARNA MATI
 H = '\x1b[1;92m' # HIJAU
 # ---- MODULE -----
-from data import loy as xxx
+#from data.loy import 
+from .loy import xxx
 
 class Xnxx:
     def __init__(self):

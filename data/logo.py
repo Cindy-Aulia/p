@@ -1,4 +1,17 @@
-import sys, os
+#######################################################
+# Name           : Yayan Multi Brute Facebook (YMBF)  #
+# File           : logo.py                            #
+# Author         : Moch Yayan Juan Alvredo XD.        #
+# Github         : https://github.com/Yayan-XD        #
+# Facebook       : https://www.facebook.com/KM39453   #
+# Website        : https://www.yayanxd.my.id          #
+# Python version : 0.4                                #
+#######################################################
+
+############# DON'T REMOVE THIS FUNCTIONS #############
+
+import sys, os, random
+
 #---- MODULE RICH IN PYTHON -------
 from rich import print as prints
 from rich.panel import Panel

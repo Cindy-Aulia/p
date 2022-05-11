@@ -1,3 +1,15 @@
+#######################################################
+# Name           : Yayan Multi Brute Facebook (YMBF)  #
+# File           : lainya.py                            #
+# Author         : Moch Yayan Juan Alvredo XD.        #
+# Github         : https://github.com/Yayan-XD        #
+# Facebook       : https://www.facebook.com/KM39453   #
+# Website        : https://www.yayanxd.my.id          #
+# Python version : 0.4                                #
+#######################################################
+
+############# DON'T REMOVE THIS FUNCTIONS #############
+
 import time, requests, sys, random, json, datetime, os, bs4, re
 from bs4 import BeautifulSoup as par
 
@@ -18,6 +30,7 @@ N = '\x1b[0m'    # WARNA MATI
 H = '\x1b[1;92m' # HIJAU
 # ---- MODULE -----
 from data import loy as emm
+from src import cok as tol
 
 class Xnxx:
     def __init__(self):
@@ -66,7 +79,7 @@ class Xnxx:
         elif pil in["5", "05"]:
             self.ua_random()
         elif pil in["0", "00"]:
-            os.system("python run.py")
+            tol.Brute().moch_yayan()
         else:
             prints(Panel(f"[{merah}!{hps}] input yang benar"));self.kontol(tokenz, cookie)
 
@@ -86,18 +99,18 @@ class Xnxx:
             ua=open("data/ua.txt", "r").read().splitlines()
             for ub in ua:
                 self.uas.append(ub)
-            prints(Panel("berhasil mengganti user agent"));input(f" [ {O}Kembali{N} ] ");os.system("python run.py")
+            prints(Panel("berhasil mengganti user agent"));input(f" [ {O}Kembali{N} ] ");tol.Brute().moch_yayan()
         elif pil in["2", "02"]:
            self.hapus_ua()
            prints(Panel("jika ingin menggunakan user hp sendiri silahkan kunjungin situs web ini: https://yayanxd.my.id/server lalu klik ikon USER AGENT"))
            ua = input("  [*] masukan user agent: ")
            open("data/ua.txt", "w").write(ua)
-           prints(Panel("berhasil mengganti user agent"));input(f" [ {O}Kembali{N} ] ");os.system("python run.py")
+           prints(Panel("berhasil mengganti user agent"));input(f" [ {O}Kembali{N} ] ");tol.Brute().moch_yayan()
         elif pil in["3", "03"]:
             self.hapus_ua()
             ua = "Mozilla/5.0 (Linux; Android 12; SAMSUNG SM-G780G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/16.0 Chrome/92.0.4515.166 Mobile Safari/537.36"
             open("data/ua.txt", "w").write(ua)
-            prints(Panel("berhasil mengganti user agent"));input(f" [ {O}Kembali{N} ] ");os.system("python run.py")
+            prints(Panel("berhasil mengganti user agent"));input(f" [ {O}Kembali{N} ] ");tol.Brute().moch_yayan()
         elif pil in["0", "00"]:
             self.kontol()
         else:
@@ -160,7 +173,7 @@ class Xnxx:
         open('data/ua.txt','w').write(self.data_ua[str(ch)])
         pilihan = open('data/ua.txt','r').read()
         prints(Panel(f'''{pilihan}''',title=f'[ {bir}User Agent{hps} ]',subtitle=f'[ {bir}Sukses Diganti{hps} ]',padding=(1,4),width=54,title_align='center',style='#FF8F00'))
-        input(f" [ {O}Kembali{N} ] ");os.system("python run.py")
+        input(f" [ {O}Kembali{N} ] ");tol.Brute().moch_yayan()
 
     def dump_flw(self, tokenz, cookie):
         try:
@@ -187,12 +200,12 @@ class Xnxx:
                 self.jalan('\n\n %s[%s✓%s] berhasil dump id dari teman'%(N,H,N))
                 print(' [%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,cin,N))
                 print("--------------------------------------------------------")
-                input(f" [ {O}Kembali{N} ] ");os.system("python run.py")
+                input(f" [ {O}Kembali{N} ] ");tol.Brute().moch_yayan()
             except KeyError:
                 try:os.remove(cin)
                 except:pass
                 self.jalan('\n  %s[%s!%s] Gagal dump id, kemungkinan id tidaklah publik.\n'%(N,M,N))
-                input(f" [ {O}Kembali{N} ] ");os.system("python run.py")
+                input(f" [ {O}Kembali{N} ] ");tol.Brute().moch_yayan()
 
     def dump_id(self, tokenz, cookie):
         try:
@@ -219,9 +232,9 @@ class Xnxx:
                 self.jalan('\n\n %s[%s✓%s] berhasil dump id dari teman'%(N,H,N))
                 print(' [%s•%s] salin output file 👉 ( %s%s%s )'%(O,N,M,cin,N))
                 print("--------------------------------------------------------")
-                input(f" [ {O}Kembali{N} ] ");os.system("python run.py")
+                input(f" [ {O}Kembali{N} ] ");tol.Brute().moch_yayan()
             except KeyError:
                 try:os.remove(cin)
                 except:pass
                 self.jalan('\n  %s[%s!%s] Gagal dump id, kemungkinan id tidaklah publik.\n'%(N,M,N))
-                input(f" [ {O}Kembali{N} ] ");os.system("python run.py")
+                input(f" [ {O}Kembali{N} ] ");tol.Brute().moch_yayan()

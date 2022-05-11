@@ -1,16 +1,3 @@
-#######################################################
-# Name           : Brute Facebook (BF)                #
-# File           : run.py                             #
-# Author         : Moch Yayan Juan Alvredo XD.        #
-# Github         : https://github.com/Yayan-XD        #
-# Facebook       : https://www.facebook.com/KM39453   #
-# Website        : https://www.yayanxd.my.id          #
-# Python version : 0.4                                #
-#######################################################
-
-############# DON'T REMOVE THIS FUNCTIONS #############
-
-
 import os
 try:
     import requests
@@ -30,18 +17,7 @@ except ImportError:
     print('\n [\x1b[1;91m!\x1b[0m] Modul Rich belum terinstall!...\n')
     os.system('pip install rich')
 #################################################################################
-import sys,shutil
-
-runtah=["src/__pycache__","data/__pycache__"]
-
-if sys.version[0]!="3":
-	exit(" ! harap gunakan python3")
-
-
 from src import cok
-try: [shutil.rmtree(x) for x in runtah]
-except: pass
-cok.Brute().moch_yayan()
 
-
-
+if __name__ == '__main__':
+    cok.Brute().moch_yayan()

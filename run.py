@@ -1,3 +1,16 @@
+#######################################################
+# Name           : Yayan Multi Brute Facebook (YMBF)  #
+# File           : run.py                            #
+# Author         : Moch Yayan Juan Alvredo XD.        #
+# Github         : https://github.com/Yayan-XD        #
+# Facebook       : https://www.facebook.com/KM39453   #
+# Website        : https://www.yayanxd.my.id          #
+# Python version : 0.4                                #
+#######################################################
+
+############# DON'T REMOVE THIS FUNCTIONS #############
+
+
 import os
 try:
     import requests

@@ -1,18 +1,4 @@
-#######################################################
-# Name           : Brute Facebook (BF)                #
-# File           : logo.py                            #
-# Author         : Moch Yayan Juan Alvredo XD.        #
-# Github         : https://github.com/Yayan-XD        #
-# Facebook       : https://www.facebook.com/KM39453   #
-# Website        : https://www.yayanxd.my.id          #
-# Python version : 0.4                                #
-#######################################################
-
-############# DON'T REMOVE THIS FUNCTIONS #############
-
-
 import sys, os
-
 #---- MODULE RICH IN PYTHON -------
 from rich import print as prints
 from rich.panel import Panel

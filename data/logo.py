@@ -34,7 +34,8 @@ class Logo:
             except:pass
 
     def log(self):
-        prints(Panel(f"""{biru_m} __  __        __  ______  ____{hapus}
-{biru_m} \ \/ / ____  /  |/  / _ )/ __/ ® {hapus}|| Created By YayanXD
-{biru_m}  \  / /___/ / /|_/ / _  / _/     {hapus}|| Github.com/Yayan-XD
-{biru_m}  /_/       /_/  /_/____/_/ v3.0  {hapus}|| Facebook.com/KM39453"""))
+        prints(Panel(f"""{WAR}  ▄▄▄▄· ▄▄▄  ▄• ▄▌▄▄▄▄▄▄▄▄ .    ·▄▄▄▄▄▄▄· 
+  ▐█ ▀█▪▀▄ █·█▪██▌•██  ▀▄.▀·    ▐▄▄·▐█ ▀█▪
+  ▐█▀▀█▄▐▀▀▄ █▌▐█▌ ▐█.▪▐▀▀▪▄    ██▪ ▐█▀▀█▄
+  ██▄▪▐█▐█•█▌▐█▄█▌ ▐█▌·▐█▄▄▌    ██▌.██▄▪▐█
+  ·▀▀▀▀ .▀  ▀ ▀▀▀  ▀▀▀  ▀▀▀     ▀▀▀ ·▀▀▀▀  {WAR}version: 0.4[/]"""))

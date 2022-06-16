@@ -11,14 +11,11 @@
 ############# DON'T REMOVE THIS FUNCTIONS #############
 
 
-import sys, os
+import sys, os, random
 
 #---- MODULE RICH IN PYTHON -------
 from rich import print as prints
 from rich.panel import Panel
-biru_m = '[bold cyan]'
-hapus  = '[/]'
-
 
 class Logo:
 
@@ -34,6 +31,7 @@ class Logo:
             except:pass
 
     def log(self):
+        WAR = random.choice(["[deep_pink3]","[green]","[cyan]","[blue]"])
         prints(Panel(f"""{WAR}  ▄▄▄▄· ▄▄▄  ▄• ▄▌▄▄▄▄▄▄▄▄ .    ·▄▄▄▄▄▄▄· 
   ▐█ ▀█▪▀▄ █·█▪██▌•██  ▀▄.▀·    ▐▄▄·▐█ ▀█▪
   ▐█▀▀█▄▐▀▀▄ █▌▐█▌ ▐█.▪▐▀▀▪▄    ██▪ ▐█▀▀█▄

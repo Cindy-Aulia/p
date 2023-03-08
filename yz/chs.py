@@ -1,6 +1,6 @@
 #######################################################
 # Name           : Yayan Multi Brute Facebook (YMBF)  #
-# File           : loy.py                             #
+# File           : chs.py                             #
 # Author         : Moch Yayan Juan Alvredo XD.        #
 # Github         : https://github.com/Yayan-XD        #
 # Facebook       : https://www.facebook.com/KM39453   #
@@ -12,7 +12,7 @@
 
 import time, os
 
-from data.lain import Xnxx as mek
+from data import lain as lainya
 
 from rich import print as prints
 from rich.panel import Panel
@@ -152,5 +152,5 @@ class Cek_Crack:
             else:
                 print("");prints(Panel(f"😡 memu [bold red]{pil}[/] tidak ada, cek menu nya!", style="bold white", width=70));time.sleep(3);self.hasil()
         elif xz in["0","00"]:
-            mek().kontol()
+            lainya.Xnxx("", "").kontol()
         else:print("");prints(Panel(f"😡 memu [bold red]{xz}[/] tidak ada, cek menu nya!", style="bold white", width=70));time.sleep(3);self.hasil()

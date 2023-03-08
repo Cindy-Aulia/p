@@ -10,12 +10,11 @@
 
 ############# DON'T REMOVE THIS FUNCTIONS #############
 
-import requests, re, time
+import requests, re, time, os
 
 from bs4 import BeautifulSoup as par
 from time import time as mek
 
-from yz import cok as cin
 from yxz.logo import Logo
 
 from rich.panel import Panel
@@ -179,7 +178,7 @@ class Ngocok:
         elif pil in ["02", "2"]:
             self.login_akun()
         elif pil in ["00", "0"]:
-            cin.Cindy_aulia().moch_yayan()
+            os.system("python run.py")
         else:prints(Panel("input yang bener", width=70, style="bold white"));time.sleep(3);self.menu()
 
     def login_akun(self):

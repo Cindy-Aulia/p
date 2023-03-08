@@ -10,14 +10,13 @@
 
 ############# DON'T REMOVE THIS FUNCTIONS #############
 
-import requests, time, json, sys, datetime, re
+import requests, time, json, sys, datetime, re, os
 from bs4 import BeautifulSoup as par
 from datetime import datetime
 #----------- MODULE RICH -------------
 from rich import print as prints
 from rich.panel import Panel
 #----------- MODULE RICH -------------
-from yz import cok as sayang
 from data import dump as dump
 from yxz.logo import Logo
 
@@ -40,24 +39,24 @@ class Bot_Facebook:
         prints(Panel("""[[bold cyan]01[/]] bot auto share       [[bold cyan]04[/]] bot auto komen group
 [[bold cyan]02[/]] bot auto komen       [[bold cyan]05[/]] bot like postingan
 [[bold cyan]03[/]] bot followers        [[bold red]00[/]] kembali""", style="bold white", padding=(0,5), width=70, title="[bold green]MENU BOT"))
-        cok = input("╰──> ")
-        if cok in ["", " "]:
+        pil = input("╰──> ")
+        if pil in ["", " "]:
             prints(Panel("[[bold red]![/]] jangan kosong", style="bold white", width=70));time.sleep(2);self.menu()
-        elif cok in ["1", "01"]:
+        elif pil in ["1", "01"]:
             self.share()
-        elif cok in ["2", "02"]:
+        elif pil in ["2", "02"]:
             self.komen()
-        elif cok in ["3", "03"]:
+        elif pil in ["3", "03"]:
             self.dumps()
             self.folow()
-        elif cok in ["4", "04"]:
+        elif pil in ["4", "04"]:
             exit("belum tersedia")
             #self.group()
-        elif cok in ["5", "05"]:
+        elif pil in ["5", "05"]:
             exit("belum tersedia")
             #self.likee()
-        elif cok in ["0", "00"]:
-            sayang.Cindy_aulia().moch_yayan()
+        elif pil in ["0", "00"]:
+            os.system("python run.py")
         else:
             prints(Panel("[[bold red]![/]] input yang bener", style="bold white", width=70));time.sleep(2);self.menu()
 

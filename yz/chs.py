@@ -12,7 +12,7 @@
 
 import time, os
 
-from data.lain import Ykhh as Ykhh
+#from data.lain import Ykhh as Ykhh
 
 from rich import print as prints
 from rich.panel import Panel

@@ -126,5 +126,5 @@ class Login:
             gett = sess.get(f"{self.url}/zero/optin/write/{link}", cookies={"cookie": coki}).text
             date = {"fb_dtsg": re.search('name="fb_dtsg" value="(.*?)"', str(gett)).group(1),"jazoest": re.search('name="jazoest" value="(.*?)"', str(gett)).group(1)}
             sess.post(self.url+par(gett, "html.parser").find("form",{"method":"post"})["action"], data=date, cookies={"cookie": coki}).text
-            prints(Panel("🥳 [bold green]akun kamu berhasil di ubah ke mode data!\nSilahkan masukan ulang cookie anda. dengan mengetik [bold cyan]python run.py[/]", style="bold white", width=70));exit()
+            prints(Panel("😍 [bold green]akun kamu berhasil di ubah ke mode data!\nSilahkan masukan ulang cookie anda. dengan mengetik [bold cyan]python run.py[/]", style="bold white", width=70));exit()
         except:exit()

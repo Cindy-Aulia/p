@@ -13,7 +13,8 @@
 from rich import print as prints
 from rich.panel import Panel
 
-from yz import cok, chs
+from yz.chs import Cek_Crack
+from yz.cok import Cindy_aulia
 
 from .ffbfb import Bot_Facebook
 from .iwjd import Ngocok
@@ -38,7 +39,7 @@ class Xnxx:
         if pil in[""," "]:
             prints(Panel("[[bold red]![/]] jangan kosong", style="bold white", width=70));self.kontol()
         elif pil in["1","01"]:
-            chs.Cek_Crack().hasil()
+            Cek_Crack().hasil()
         elif pil in["2", "02"]:
             Ngocok().menu()
             #exit("belum tersedia")
@@ -46,6 +47,6 @@ class Xnxx:
             Bot_Facebook(self.cok, self.tok).menu()
             #exit("belum tersedia")
         elif pil in["0", "00"]:
-            cok.Cindy_aulia()
+            Cindy_aulia()
         else:
             prints(Panel("[[bold red]![/]] input yang benar", style="bold white", width=70));self.kontol()

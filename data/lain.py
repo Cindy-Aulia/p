@@ -1,6 +1,6 @@
 #######################################################
 # Name           : Brute Facebook (BF)                #
-# File           : lainya.py                          #
+# File           : lain.py                            #
 # Author         : Moch Yayan Juan Alvredo XD.        #
 # Github         : https://github.com/Yayan-XD        #
 # Facebook       : https://www.facebook.com/KM39453   #
@@ -42,10 +42,8 @@ class Xnxx:
             Cek_Crack().hasil()
         elif pil in["2", "02"]:
             Ngocok().menu()
-            #exit("belum tersedia")
         elif pil in["3", "03"]:
             Bot_Facebook(self.cok, self.tok).menu()
-            #exit("belum tersedia")
         elif pil in["0", "00"]:
             cinta.Cindy_aulia()
         else:

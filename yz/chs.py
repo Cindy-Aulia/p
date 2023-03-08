@@ -12,7 +12,7 @@
 
 import time, os
 
-from data.lain import Xnxx
+#from data.lain import Xnxx
 
 from rich import print as prints
 from rich.panel import Panel

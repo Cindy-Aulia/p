@@ -14,7 +14,7 @@ from rich import print as prints
 from rich.panel import Panel
 
 #from yz.chs import Cek_Crack
-from yz.cok import Cindy_aulia
+#from yz.cok import Cindy_aulia
 
 from .ffbfb import Bot_Facebook
 from .iwjd import Ngocok

@@ -13,7 +13,7 @@
 from rich import print as prints
 from rich.panel import Panel
 
-from yz import chs as ceek
+from yz.chs import Cek_Crack
 from yz import cok as cinta
 
 from .ffbfb import Bot_Facebook
@@ -39,7 +39,7 @@ class Xnxx:
         if pil in[""," "]:
             prints(Panel("[[bold red]![/]] jangan kosong", style="bold white", width=70));self.kontol()
         elif pil in["1","01"]:
-            ceek.Cek_Crack().hasil()
+            Cek_Crack().hasil()
         elif pil in["2", "02"]:
             Ngocok().menu()
             #exit("belum tersedia")
